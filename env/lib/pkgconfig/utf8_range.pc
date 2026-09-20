@@ -1,0 +1,11 @@
+prefix=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env
+exec_prefix=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env
+libdir=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/lib
+includedir=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}

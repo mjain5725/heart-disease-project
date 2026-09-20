@@ -1,0 +1,14 @@
+prefix=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env
+exec_prefix=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env
+libdir=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/lib
+includedir=/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

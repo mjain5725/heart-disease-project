@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/manishjain/Documents/Udemy/ml_course/heart-disease-project/env/bin/python -m PyQt6.lupdate.pylupdate ${1+"$@"}
